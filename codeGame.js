@@ -16,7 +16,7 @@ while (true) {
     const bombDir = readline();
     // the direction of the bombs from batman's current location (U, UR, R, DR, D, DL, L or UL)
 
-    
+
     if (bombDir == 'U') {
         Y0 = Y0 - 1;
     }
@@ -65,6 +65,8 @@ while (true) {
     if (Y0 == -1) {
         Y0 = H - 1;
     }
+
+    console.log(`${X0} ${Y0}`);
 
 
 }
